@@ -13,7 +13,7 @@ export const uiText = {
 		],
 		"jp": [
 			<div key="amount_ada_to_stake_jp">
-				ステークするADAの量
+				ステークするadaの量
 			</div>
 		]
 	} ,
@@ -26,7 +26,7 @@ export const uiText = {
 		],
 		"jp": [
 			<div key="amount_ada_to_stake_desc_jp">
-				ステークしたいADAの金額を入力してください。
+				ステークしたいadaの金額を入力してください。
 			</div>
 		]
 	} ,
@@ -52,7 +52,7 @@ export const uiText = {
 		],
 		"jp": [
 			<div key="staking_rewards_per_year_ada_label_jp">
-				年間のADAのステーキング報酬
+				年間のadaのステーキング報酬
 			</div>
 		]
 	} ,
@@ -313,7 +313,7 @@ export const infoHovers = {
 		"jp": [
 			<div key="pool_pledge_jp" className="space-y-2">
 				<h4 className="text-lg font-medium">プール誓約 (Pool Pledge)</h4>
-				<p>ステークプール運営者が自身のプールに対してコミットするADAの量であり、これは「自己出資額」としての役割を果たします</p>
+				<p>ステークプール運営者が自身のプールに対してコミットするadaの量であり、これは「自己出資額」としての役割を果たします</p>
 				<ul className="list-disc pl-6 space-y-2">
 					<li>誓約額が高いプールは、報酬計算式の「a0」パラメータによって、やや高い報酬を得る可能性があります。</li>
 					<li>高い誓約額は、プール運営者の強い資金的コミットメントを示します。</li>
@@ -338,9 +338,9 @@ export const infoHovers = {
 		"jp": [
 			<div key="delegator_stake_jp" className="space-y-2">
 				<h4 className="text-lg font-medium">委任者のステーク (Delegators&apos; Stake)</h4>
-				<p>他のユーザー（委任者）がこのプールにステークしたADAの総額。</p>
+				<p>他のユーザー（委任者）がこのプールにステークしたadaの総額。</p>
 				<ul className="list-disc pl-6 space-y-2">
-					<li>委任者によってステークされるADAが多いほど、プールがブロック生成に選ばれ、報酬を獲得する可能性が高くなります。</li>
+					<li>委任者によってステークされるadaが多いほど、プールがブロック生成に選ばれ、報酬を獲得する可能性が高くなります。</li>
 					<li>より多くのステークを集めたプールは、より多くのブロックを生成し、より多くの報酬を生み出す傾向がありますが、運営手数料とのバランスを考慮する必要があります。</li>
 				</ul>
 			</div>
@@ -361,8 +361,8 @@ export const infoHovers = {
 			<div key="total_pool_stake_jp" className="space-y-2">
 				<h4 className="text-lg font-medium">総プールステーク (Total Pool Stake)</h4>
 				<p>
-					プール内のADAの合計額であり、運営者の誓約と委任者のステークを含みます。
-					これは、プールがブロック生成に参加し、報酬を獲得するために使用する総ADA量です。
+					プール内のadaの合計額であり、運営者の誓約と委任者のステークを含みます。
+					これは、プールがブロック生成に参加し、報酬を獲得するために使用する総ada量です。
 				</p>
 				<p>
 					ステークが多いプールは、より多くのブロックを生成し、より多くの手数料を獲得できます。
@@ -488,7 +488,7 @@ export const infoHovers = {
 				<h4 className="text-lg font-medium">a0</h4>
 				<p>
 					ステークプールの誓約の大きさが報酬分配にどれほど影響するかを決定します。
-					これは、ステークプール運営者が自分のプールにもっとADAを誓約するよう促すインセンティブ機構として機能します。
+					これは、ステークプール運営者が自分のプールにもっとadaを誓約するよう促すインセンティブ機構として機能します。
 				</p>
 			</div>
 		]
@@ -593,7 +593,7 @@ export const infoHovers = {
 		],
 		"jp": [
 			<div key="max_ada_supply_jp" className="space-y-2">
-				<h4 className="text-lg font-medium">最大ADA供給量 (Max Ada Supply)</h4>
+				<h4 className="text-lg font-medium">最大ada供給量 (Max Ada Supply)</h4>
 				<p>...</p>
 			</div>
 		]
@@ -608,7 +608,7 @@ export const infoHovers = {
 		],
 		"jp": [
 			<div key="current_ada_supply_jp" className="space-y-2">
-				<h4 className="text-lg font-medium">現在のADA供給量 (Current Ada Supply)</h4>
+				<h4 className="text-lg font-medium">現在のada供給量 (Current Ada Supply)</h4>
 				<p>...</p>
 			</div>
 		]
@@ -623,7 +623,7 @@ export const infoHovers = {
 		],
 		"jp": [
 			<div key="reserve_ada_jp" className="space-y-2">
-				<h4 className="text-lg font-medium">リザーブADA (Reserve ADA)</h4>
+				<h4 className="text-lg font-medium">リザーブada (Reserve ada)</h4>
 				<p>...</p>
 			</div>
 		]
@@ -638,7 +638,7 @@ export const infoHovers = {
 		],
 		"jp": [
 			<div key="total_staked_ada_jp" className="space-y-2">
-				<h4 className="text-lg font-medium">総ステークADA (Total Staked ADA)</h4>
+				<h4 className="text-lg font-medium">総ステークada (Total Staked ada)</h4>
 				<p>...</p>
 			</div>
 		]
@@ -653,7 +653,7 @@ export const infoHovers = {
 		],
 		"jp": [
 			<div key="fees_in_epoch_jp" className="space-y-2">
-				<h4 className="text-lg font-medium">エポック内のADA手数料 (ADA Fees in an Epoch)</h4>
+				<h4 className="text-lg font-medium">エポック内のada手数料 (ada Fees in an Epoch)</h4>
 				<p>...</p>
 			</div>
 		]
@@ -670,7 +670,7 @@ export const infoHovers = {
 		],
 		"jp": [
 			<div key="distribution_from_reserve_jp" className="space-y-2">
-				<h4 className="text-lg font-medium">リザーブから分配されるADA (ADA Distributed from Reserve)</h4>
+				<h4 className="text-lg font-medium">リザーブから分配されるada (ada Distributed from Reserve)</h4>
 				<p>
 					各エポックごとにCardanoリザーブから一定割合（rho）がステーキング報酬の支払いに充てられます。
 					リザーブの残高が減少するにつれ、この割合も徐々に減少します。
@@ -731,15 +731,15 @@ export const infoHovers = {
 	"staking_reward_per_year_ada": {
 		"en": [
 			<div key="staking_reward_per_year_ada_en" className="space-y-2">
-				<h4 className="text-lg font-medium">Staking Reward per Year ADA</h4>
-				<p>Expected reward in ADA per year for the amount staked.</p>
+				<h4 className="text-lg font-medium">Staking Reward per Year ada</h4>
+				<p>Expected reward in ada per year for the amount staked.</p>
 				<p>Number in grey shows the result from the previous simulation, for comparability between simulations with different parameters</p>
 			</div>
 		],
 		"jp": [
 			<div key="staking_reward_per_year_ada_jp" className="space-y-2">
-				<h4 className="text-lg font-medium">年間ステーキング報酬 ADA (Staking Reward per Year ADA)</h4>
-				<p>ステークされた量に対する年間予想報酬（ADA）。</p>
+				<h4 className="text-lg font-medium">年間ステーキング報酬 ada (Staking Reward per Year ada)</h4>
+				<p>ステークされた量に対する年間予想報酬（ada）。</p>
 				<p>灰色の数字は、異なるパラメータでのシミュレーション間で比較できるように、前回のシミュレーション結果を示しています。</p>
 			</div>
 		]
@@ -779,7 +779,7 @@ export const infoSections = {
 			<div key="info_section_1_en" className="space-y-2">
 				<h4 className="text-md font-medium">Info</h4>
 				<p>This calculator is based on a <a href="https://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo simulation</a> and live data from the Cardano mainnet.</p>
-				<p>You can delegate your ADA to a staking pool and receive automatic and regular rewards. </p>
+				<p>You can delegate your ada to a staking pool and receive automatic and regular rewards. </p>
 				<p>Enter any ada value for which you want to calculate and simulate the yield.</p>
 				<p>The gray number shows the result of your previous simulation so you can compare different parameter values.</p>
 				<p>Learn more about <a href="https://cardano.org/stake-pool-delegation/" target="_blank">Proof of Stake delegations of your ada</a>, 
@@ -792,13 +792,13 @@ export const infoSections = {
 			<div key="info_section_1_jp" className="space-y-2">
 				<h4 className="text-md font-medium">情報 (じょうほう, jōhō)</h4>
 				<p>この計算機は、<a href="https://en.wikipedia.org/wiki/Monte_Carlo_method">モンテカルロシミュレーション</a>とCardanoメインネットのライブデータに基づいています。</p>
-				<p>ADAをステーキングプールに委任することで、自動的かつ定期的に報酬を受け取ることができます。</p>
-				<p>任意のADA値を入力し、利回りを計算・シミュレーションしてください。</p>
+				<p>adaをステーキングプールに委任することで、自動的かつ定期的に報酬を受け取ることができます。</p>
+				<p>任意のada値を入力し、利回りを計算・シミュレーションしてください。</p>
 				<p>灰色の数値は前回のシミュレーション結果を示しており、異なるパラメーター値を比較できるようになっています。</p>
 				<p>詳しく知る:  
-					ADAの<a href="https://cardano.org/stake-pool-delegation/" target="_blank">プルーフ・オブ・ステーク（PoS）委任</a>について  
+					adaの<a href="https://cardano.org/stake-pool-delegation/" target="_blank">プルーフ・オブ・ステーク（PoS）委任</a>について  
 					<a href="https://cardano.org/stake-pool-operation" target="_blank">ステーキングプールの運用方法</a>  
-					すべてのADA保有者に提供される、<a href="https://cexplorer.io/article/cardano-s-liquid-staking-from-a-security-perspective" target="_blank">スラッシングなしのリキッドステーキング</a>に関する解説
+					すべてのada保有者に提供される、<a href="https://cexplorer.io/article/cardano-s-liquid-staking-from-a-security-perspective" target="_blank">スラッシングなしのリキッドステーキング</a>に関する解説
 				</p>
 			</div>
 		]
@@ -817,8 +817,8 @@ export const infoSections = {
 		"jp": [
 			<div key="info_section_2_jp" className="space-y-2">
 				<h4 className="text-md font-medium">ステーキングプール情報</h4>
-				<p>あなたのADAトークンを使用してリキッドステーキングメカニズムに積極的に参加し、<a href="https://eprint.iacr.org/2016/889.pdf" target="_blank">Cardanoの証明可能なセキュリティ</a>を支えることができます。</p> 
-				<p><a href="https://cardano.org/ouroboros/" target="_blank">Ouroborosプロトコル</a>は、ADA保有者が合理的に行動し、<a href="https://github.com/cardano-foundation/cardano-economic-parameter-insights/blob/main/whitepaper.md#pool-incentives-for-stake-and-pledge" target="_blank">最大のステーキング報酬</a>を得られるステークプールに委任することを前提としたルールを提供します。</p>
+				<p>あなたのadaトークンを使用してリキッドステーキングメカニズムに積極的に参加し、<a href="https://eprint.iacr.org/2016/889.pdf" target="_blank">Cardanoの証明可能なセキュリティ</a>を支えることができます。</p> 
+				<p><a href="https://cardano.org/ouroboros/" target="_blank">Ouroborosプロトコル</a>は、ada保有者が合理的に行動し、<a href="https://github.com/cardano-foundation/cardano-economic-parameter-insights/blob/main/whitepaper.md#pool-incentives-for-stake-and-pledge" target="_blank">最大のステーキング報酬</a>を得られるステークプールに委任することを前提としたルールを提供します。</p>
 				<p>最大3つの異なる実際のステークプールを選択し、最初に設定したステーキング額に対する違いを比較できます。</p> 
 				<p>プールごとに異なる特徴や品質があり、それがあなたにとって大きな違いを生むことがわかるでしょう。</p>
 			</div>
@@ -839,7 +839,7 @@ export const infoSections = {
 				<h4 className="text-md font-medium">ステーキングプールパラメーター情報</h4>
 				<p>このセクションは、直前に選択したプールの値で自動入力されています。  ここでは、その基本的な値を仮想的に変更し、上部に表示される報酬への影響をシミュレーションすることができます。</p>
 				<p>プールの規模やプレッジの割合に応じて利回りに差が生じます。  この詳細については、<a href="https://github.com/cardano-foundation/cardano-economic-parameter-insights/blob/main/whitepaper.md#pool-incentives-for-stake-and-pledge" target="_blank">パラメーターモデリングのホワイトペーパー</a>で詳しく説明されています。</p>
-				<p>新しい制限値を検討するシミュレーションを可能にするために、このシミュレーターでは、現在の有効なグローバルブロックチェーンパラメーターおよび<a href="https://ucarecdn.com/621764d9-92a1-4849-baab-8b87089dd600/" target="_blank">ガードレール</a>文書に基づく制約を超えた値も設定できます。  例えば、最小固定手数料を170 ADA未満に設定することも可能です。</p>
+				<p>新しい制限値を検討するシミュレーションを可能にするために、このシミュレーターでは、現在の有効なグローバルブロックチェーンパラメーターおよび<a href="https://ucarecdn.com/621764d9-92a1-4849-baab-8b87089dd600/" target="_blank">ガードレール</a>文書に基づく制約を超えた値も設定できます。  例えば、最小固定手数料を170 ada未満に設定することも可能です。</p>
 			</div>
 		]
 	} ,
@@ -869,10 +869,10 @@ export const infoSections = {
 					<a href="https://developers.cardano.org/docs/governance/cardano-governance/governance-actions/" target="_blank">ガバナンスアクション</a>を通じて変更可能な  
 					<span className="text-md font-medium">動的パラメーター</span>について扱います。 
 				</p>
-				<p>これらの値は、ステークプールオペレーターおよび/またはDRepの過半数の投票によって変更でき、その後、ブロックチェーン全体、すべてのステークプール、およびADA保有者に適用されます。  
+				<p>これらの値は、ステークプールオペレーターおよび/またはDRepの過半数の投票によって変更でき、その後、ブロックチェーン全体、すべてのステークプール、およびada保有者に適用されます。  
 					変更は、<a href="https://www.cardanofoundation.org/blog/releasing-an-open-source-rewards-calculation" target="_blank">報酬計算</a>、ゲーム理論、  
 					<a href="https://github.com/cardano-foundation/cardano-economic-parameter-insights/blob/main/whitepaper.md#actual-reserves-and-treasury-distribution" target="_blank">準備金の消費</a>、  
-					トレジャリーの蓄積、さらには個々のADA保有者のステーキング報酬にも大きな影響を与える可能性があります。
+					トレジャリーの蓄積、さらには個々のada保有者のステーキング報酬にも大きな影響を与える可能性があります。
 				</p>
 				<p><span className="text-md font-medium">手数料 & 残りの準備金</span> セクションでは、シミュレーターを使用して、エポックごとに回収される取引手数料の理論値をシミュレーションすることができます。  
 					実際のリターンはガバナンスアクションによって変更することはできませんが、主にブロックチェーンの採用とユースケースへの統合に依存します。</p>
