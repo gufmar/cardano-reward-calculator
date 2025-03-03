@@ -16,12 +16,17 @@ Major frameworks/libraries used in this project.
    <img src="./public/images/koios_logo.png" alt="Logo" width="120">
 </a>
 
-# Cardano Reward Calculator
+# Cardano Staking Reward Calculator
 This is a web interface where
 users can enter an ada balance and calculate their potential rewards
 based on current blockchain parameters and a representative staking pool.
 
-A demo is available <a href="https://cardano.org/calculator_demo/">here</a>
+Visit and use it in production at <a href="https://cardano.org/calculator/">https://cardano.org/calculator</a>
+
+This 2025 newly developed Cardano Staking Reward Calculator is built to allow translations into other languages, thus increasing international accessibility.
+The first language into which the reward calculator has been translated is Japanese.  
+
+カルダノ賭け報酬計算機を日本語で呼び出す。<a href="https://cardano.org/calculator/?lang=jp">https://cardano.org/calculator/?lang=jp</a>
 
 ## Using NextJs
 We chose the NextJS framework as it is one of the most common forms to launch a web project and is well understood
